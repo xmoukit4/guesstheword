@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Guess the Word Game
+
+This is a simple "Guess the Word" game built with React and Next.js. In this game, players have to guess the hidden word based on the given hint.
+
+## Features
+
+- Random selection of words from a predefined list.
+- Hint provided for each word.
+- Display of remaining guesses.
+- Keyboard input support for guessing letters.
+- Play again option after winning or losing the game.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Before you begin, ensure you have met the following requirements:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- You have installed Node.js on your machine.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To install Guess the Word Game, follow these steps:
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone git https://github.com/xmoukit4/guesstheword.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Clone the repository:
+   ```bash
+   cd guesstheword
+   
+3. Install dependencies:
+   ```bash
+   npm install
+### Usage
+ #### To play the game, follow these steps:
+ 1. Clone the repository:
+    ```bash
+    npm run dev
+    
+ 2. Open your browser and visit http://localhost:3000 to play the game.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### How to Play
+ - A random word will be selected from the predefined list.
+ - You will be provided with a hint for the word.
+ - Guess the letters of the word by clicking on the corresponding buttons.
+ - You have a limited number of guesses.
+ - If you guess the word correctly, you win! If you run out of guesses, you lose.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
