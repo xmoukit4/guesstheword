@@ -35,7 +35,7 @@ To install Guess the Word Game, follow these steps:
    ```bash
    npm install
 ### Usage
- # To play the game, follow these steps:
+ #### To play the game, follow these steps:
  1. Clone the repository:
     ```bash
     npm run dev
