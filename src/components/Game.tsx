@@ -63,7 +63,7 @@ const Game: React.FC = () => {
 
   return (
     <div className="wrapper p-4 max-w-lg mx-auto bg-white rounded-lg shadow-md text-black">
-      <h1 className="text-3xl font-medium mb-4">Devinez le Mot</h1>
+      <h1 className="text-3xl font-medium mb-4">Guess the word</h1>
       <p className="mb-2">Hint: {gameState.hint}</p>
       <p className="text-xl mb-4">{displayWord}</p>
       <p className="mb-4">Remaining guesses: {gameState.remainingGuesses}</p>
